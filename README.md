@@ -10,6 +10,15 @@ The project is broadly divided into two main components:
    - `spam.csv`: The dataset containing raw SMS messages.
    - `spam.ipynb`: A Jupyter Notebook used to load the dataset, perform Exploratory Data Analysis (EDA), preprocess text (tokenization, stop words removal, stemming using `NLTK`), train, and export the classification model.
    
+   **Model Performance Metrics (MultinomialNB with TF-IDF):**
+   - **Accuracy**: 97.10%
+   - **Precision**: 100%
+   - **Confusion Matrix**:
+     ```text
+     [[896   0]
+      [ 30 108]]
+     ```
+   
 2. **Django Web Application** (`spam_class`)
    - `manage.py`: Django's command-line utility for administrative tasks.
    - `spamm/`: The main Django app containing the views and prediction logic.
