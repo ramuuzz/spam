@@ -4,6 +4,11 @@ from pathlib import Path
 import nltk
 import string
 
+# Download required NLTK data on startup
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+nltk.download('stopwords', quiet=True)
+
 # Get the directory of this file
 BASE_DIR = Path(__file__).resolve().parent
 
