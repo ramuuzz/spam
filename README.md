@@ -1,5 +1,7 @@
 # SMS Spam Classifier Web App
 
+**Live Demo:** [https://spam-1-jnhb.onrender.com/](https://spam-1-jnhb.onrender.com/)
+
 This project is an end-to-end Machine Learning pipeline and web application designed to classify text messages as either **Spam** or **Not Spam (Ham)**. It pairs a machine learning model developed with Python and Scikit-Learn with a frontend user interface powered by Django.
 
 ## Project Structure
